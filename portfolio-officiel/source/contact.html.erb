@@ -1,20 +1,26 @@
-<div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-      <% data.users.each do |user| %>
-        <li>
-          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
-          <% end %>
-          <h2><%= user.name %></h2>
-          <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-              <i class="fa fa-github"></i> <%= user.github_nickname %>
-            <% end %>
-          </p>
-        </li>
-      <% end %>
-    </ul>
+<div class="headers">
+  <!-- Home -->
+  <div class="left">
+    <%= link_to "Home", "index.html", class: "navbar-wagon-item navbar-wagon-link" %>
+  </div>
+  <!-- Right Navigation -->
+  <div class="right">
+    <%= link_to "Work", "work.html", class: "right-item" %>
+    <%= link_to "Contact", "contact.html", class: "right-item" %>
+  </div>
+</div>
+<div class="space-nav">
+</div>
+<div class="contact-banner">
+  <div class="work-experience">
+    <div class="experience-description">
+      <p>If you have an idea in mind or want to discuss about your design, UX and web-development projects, let’s talk ;). You can reach me at <a href="mailito:lienard.florent@gmail.com">lienard.florent@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="touch">
+
+  </div>
+  <div class="social">
+    TWITTER - GITHUB - LINKEDIN
   </div>
 </div>
