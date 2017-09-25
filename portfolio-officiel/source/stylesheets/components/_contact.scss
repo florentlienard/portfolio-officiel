@@ -1,14 +1,15 @@
 .contact-banner {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
-.social {
-  width: 500px;
-  background: red;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.social {
+  margin: 0 15px;
+}
+.contact-mail {
+  margin: 0 20%;
+  margin-bottom: 20%;
+  text-align: center;
 }

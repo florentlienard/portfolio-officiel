@@ -1,5 +1,5 @@
 #home {
-  background-color: white;
+  // background-color: white;
   color: back;
   height: 100vh;
   display: flex;
@@ -41,4 +41,9 @@
   align-items: center;
   justify-content: center;
   a { text-decoration: none; color: black}
+}
+
+
+h1 {
+  font-size: 60px;
 }

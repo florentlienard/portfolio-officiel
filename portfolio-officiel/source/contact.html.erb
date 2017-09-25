@@ -1,3 +1,10 @@
+<div class="page-bg"></div>
+<div class="animation-wrapper">
+  <div class="particle particle-1"></div>
+  <div class="particle particle-2"></div>
+  <div class="particle particle-3"></div>
+  <div class="particle particle-4"></div>
+</div>
 <div class="headers">
   <!-- Home -->
   <div class="left">
@@ -6,23 +13,16 @@
   <!-- Right Navigation -->
   <div class="right">
     <%= link_to "Work", "work.html", class: "right-item" %>
-    <%= link_to "Contact", "contact.html", class: "right-item" %>
+    <%= link_to "Contact", "contact.html", class: "active-item" %>
   </div>
-</div>
-<div class="space-nav">
 </div>
 <div class="contact-banner">
-  <div class="work-experience">
-    <div class="experience-description">
-      <p>If you have an idea in mind or want to discuss about your design, UX and web-development projects, let’s talk ;). You can reach me at <a href="mailito:lienard.florent@gmail.com">lienard.florent@gmail.com</a></p>
-    </div>
-  </div>
-  <div class="touch">
-
+  <div class="contact-mail">
+    <p>If you have an idea in mind or want to discuss about your design, UX and web-development projects, you can reach me at <a href="mailito:lienard.florent@gmail.com">lienard.florent@gmail.com</a></p>
   </div>
   <div class="social">
-    <%= image_tag "twitter.png", width: 50%>
-    <%= image_tag "github.png", width: 50%>
-    <%= image_tag "linkedin.png", width: 50%>
+    <%= link_to image_tag('twitter.png', width: 50, class: "social"), "http://www.linkedin.com/in/lucasraert" %>
+    <%= link_to image_tag('github.png', width: 50, class: "social"), "http://www.linkedin.com/in/lucasraert" %>
+    <%= link_to image_tag('linkedin.png', width: 50, class: "social"), "http://www.linkedin.com/in/lucasraert" %>
   </div>
 </div>
